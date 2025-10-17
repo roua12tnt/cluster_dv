@@ -439,7 +439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id:
-    value: 0
+    value: 14477281858842677890
   itemName: 
   size: {x: 0, y: 0, z: 0}
 --- !u!64 &355766161
@@ -599,7 +599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id:
-    value: 0
+    value: 13377593109886948703
   itemName: 
   size: {x: 0, y: 0, z: 0}
 --- !u!65 &397022836
@@ -687,7 +687,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id:
-    value: 0
+    value: 9218360707873136048
   itemName: 
   size: {x: 0, y: 0, z: 0}
 --- !u!64 &408262304
@@ -738,7 +738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id:
-    value: 0
+    value: 14593917233294126245
   itemName: 
   size: {x: 0, y: 0, z: 0}
 --- !u!114 &464459314
@@ -1246,7 +1246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id:
-    value: 0
+    value: 7145124825967943085
   itemName: 
   size: {x: 0, y: 0, z: 0}
 --- !u!114 &711847189
@@ -1966,7 +1966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id:
-    value: 0
+    value: 9580578009394053927
   itemName: 
   size: {x: 0, y: 0, z: 0}
 --- !u!64 &1096197078
@@ -2409,12 +2409,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 38ca23e2d7767cf4390ef415f2d5619b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38ca23e2d7767cf4390ef415f2d5619b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38ca23e2d7767cf4390ef415f2d5619b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 38ca23e2d7767cf4390ef415f2d5619b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.489
+      value: 0.221
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 38ca23e2d7767cf4390ef415f2d5619b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.066
+      value: -0.096
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 38ca23e2d7767cf4390ef415f2d5619b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2530,7 +2542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id:
-    value: 0
+    value: 5825505790415787521
   itemName: 
   size: {x: 0, y: 0, z: 0}
 --- !u!64 &1899657120

@@ -2,6 +2,12 @@ ScriptsOnlyBuild:
   usedScripts:
     ClusterVR.CreatorKit.Editor.dll:
     - ClusterVR.CreatorKit.Editor.Window.VenueUpload.VenueUploadWindow
+    ClusterVR.CreatorKit.Item.Implements.dll:
+    - ClusterVR.CreatorKit.Item.Implements.GrabbableItem
+    - ClusterVR.CreatorKit.Item.Implements.Item
+    - ClusterVR.CreatorKit.Item.Implements.MovableItem
+    ClusterVR.CreatorKit.Trigger.Implements.dll:
+    - ClusterVR.CreatorKit.Trigger.Implements.OnCollideItemTrigger
     ClusterVR.CreatorKit.World.Implements.dll:
     - ClusterVR.CreatorKit.World.Implements.DespawnHeights.DespawnHeight
     - ClusterVR.CreatorKit.World.Implements.SpawnPoints.SpawnPoint
@@ -11,7 +17,12 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-  serializedClasses: {}
+  serializedClasses:
+    ClusterVR.CreatorKit.Item:
+    - ClusterVR.CreatorKit.Item.ItemId
+    ClusterVR.CreatorKit.Trigger.Implements:
+    - ClusterVR.CreatorKit.Trigger.Implements.ConstantTriggerParam
+    - ClusterVR.CreatorKit.Trigger.Implements.Value
   methodsToPreserve: []
   sceneClasses:
     Assets/venue_eb781d4b3732c0bca6709d1b84.unity:
@@ -31,16 +42,28 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
     - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 3038}
+      Script: {instanceID: 3086}
     - Class: 114
-      Script: {instanceID: 9246}
+      Script: {instanceID: 3534}
+    - Class: 114
+      Script: {instanceID: 3846}
+    - Class: 114
+      Script: {instanceID: 4360}
+    - Class: 114
+      Script: {instanceID: 4588}
+    - Class: 114
+      Script: {instanceID: 9294}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -56,6 +79,30 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.World.Implements.dll
     namespaceName: ClusterVR.CreatorKit.World.Implements.SpawnPoints
     className: SpawnPoint
+  - hash:
+      serializedVersion: 2
+      Hash: 9715498937eb70e5ac297fb5fd7cbe8e
+    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Item.Implements
+    className: MovableItem
+  - hash:
+      serializedVersion: 2
+      Hash: 8d446a7ef97628b169c49a77bb6e87df
+    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Item.Implements
+    className: GrabbableItem
+  - hash:
+      serializedVersion: 2
+      Hash: 0f8a7a49cb1008b34873dca1cb160dd8
+    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Item.Implements
+    className: Item
+  - hash:
+      serializedVersion: 2
+      Hash: 0133b47dbc333250e5b86c11d087eb2e
+    assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Trigger.Implements
+    className: OnCollideItemTrigger
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
