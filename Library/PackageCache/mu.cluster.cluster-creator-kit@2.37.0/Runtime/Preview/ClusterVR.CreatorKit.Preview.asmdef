@@ -1,0 +1,18 @@
+{
+    "name": "ClusterVR.CreatorKit.Preview",
+    "references": [
+        "ClusterVR.CreatorKit.Item",
+        "ClusterVR.CreatorKit.Trigger",
+        "ClusterVR.CreatorKit.Constants",
+        "ClusterVR.CreatorKit.World",
+        "SteamAudioUnity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
